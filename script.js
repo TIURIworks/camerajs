@@ -25,7 +25,7 @@ if (noembre < 0.3) {
   
 }
   else {
-var backy =['img/com.2.p.png']; 
+var backy =['img/com3p.png']; 
     
   }
 
