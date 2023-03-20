@@ -7,12 +7,13 @@ function setup() {
 
 var com1 =['img/Motherland.png'];
 var com2 =['com.2.p.png']; 
+var com2 =['com 3p.png'];
             
-         var values = ["com1","com2",];
+         var values = ["com1","com2","com3",];
        backy = values[Math.floor(Math.random() * values.length)];      
 
 
-  var com1, com2;
+
 var noembre = Math.random();
 if (noembre < 0.3) {
 
@@ -25,7 +26,7 @@ if (noembre < 0.3) {
   
 }
   else {
-var backy =['img/com3p.png']; 
+var backy =[com3]; 
     
   }
 
