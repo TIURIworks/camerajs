@@ -13,17 +13,21 @@ var com2 =['com.2.p.png'];
 
 
   var com1, com2;
-var index = Math.random();
-if (index < 0.5) {
+var noembre = Math.random();
+if (noembre < 0.3) {
 
    var backy =['img/Motherland.png']
   tag = 1;
   
-} else {
+} else if (noembre < 0.6)  {
    var backy =['img/com.2.p.png']; 
   tag=2
   
 }
+  else {
+var backy =['img/com.2.p.png']; 
+    
+  }
 
   
     myback = loadImage (backy);
